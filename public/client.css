@@ -1,19 +1,56 @@
-/* This file contains the style parameters for the sample client. */
+/* For the Front-End portion of our assigment I edited the style of my login counter here. I did not change the given java script file drastically. */
 
 
 .box {
-    width: 300px;
-    height: 200px;
+    width: 900px;
+    height: 600px;
     border: thin black solid;
-    background-color: rgb(243,243,243);
+    background-color: rgb(243,143,243);
 }
 
 .message {
-    margin: 10px 20px 10px 20px;
+    margin: 100px 20px 10px 20px;
     border: thin black solid;
 }
 
 body {
-	font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: "Lucida Console", Monaco, monospace 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+	font-size: 5ex;
+	background-color: yellow;
+
+
+
+
 }
 
+button.css3button {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	padding: 10px 20px;
+	background: -moz-linear-gradient(
+		top,
+		#42ff62 0%,
+		#003366);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#42ff62),
+		to(#003366));
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #003366;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.5);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.5);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.5);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.7),
+		0px 1px 0px rgba(255,255,255,0.3);
+}
